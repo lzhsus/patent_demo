@@ -1,0 +1,81 @@
+@import './idangerous.swiper.css';
+@import './reset.scss';
+@import './common.scss';
+@import './header.scss';
+@import './navigation.scss';
+@import './footer.scss';
+// 设置内容有效空间
+.loading_opacity{
+    &.after{
+        position: absolute;left: 50%;top: 50%;
+        margin: -30px 0 0 -30px;
+        width: 60px;height: 60px;
+        background: #000;
+        border-radius: 5px;
+        z-index: 100001;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        filter:"alpha(opacity=80)";
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    }
+}
+#login-pop.login-pop{
+    position: fixed;left: 0;top:0;width:100%;height: 100%;z-index: 99;display: none;
+    .after{
+        position: absolute;left: 0;top:0;width: 100%;height: 100%;background-color: #000;content: "";
+        opacity: 0.3;filter: alpha(opacity=30);filter:"alpha(opacity=30)";filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+    }
+    .login-pop-main{
+        position: absolute;left: 50%;top:50%;width: 400px;height: 335px;z-index: 2;
+        background: url('../../common/assets/image/login-bg.png') no-repeat;margin:-200px 0 0 -168px;
+        .close{
+            position: absolute;right: 0;top:0;width: 40px;height: 40px;cursor: pointer;
+        }
+        .login-btn{
+            position: absolute;left: 0;bottom:0;width: 100%;height: 70px;cursor: pointer;
+        }
+    }
+    .pop-main{
+        position: absolute;left: 50%;top:50%;z-index: 2;
+    }
+}
+#del-pop{
+    .pop-main{
+        background-color: #fff;
+        width: 428px;border-radius:10px;overflow: hidden;
+        padding: 40px 0;
+        .close-btn{
+            position: absolute;top: 0;right: 0;
+            width: 40px;height: 40px;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAzNEQ4MkFCMTQyRDExRUJCNjY2QUFFMDlBMUZFMTg0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAzNEQ4MkFDMTQyRDExRUJCNjY2QUFFMDlBMUZFMTg0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM0RDgyQTkxNDJEMTFFQkI2NjZBQUUwOUExRkUxODQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM0RDgyQUExNDJEMTFFQkI2NjZBQUUwOUExRkUxODQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5iLkX0AAAArklEQVR42sSVMQ6AIAxFexgdvQcXd3BwN3Fg0M1DIJguEpH+VqJJE/Mt7ze0AhHRHMPH6EIIZI3EYd5E/JLU3WrA4J15PhfUBk+c4gcr+NJrCVrwDa4xqOXDC5A8XUXSAuAmAVuHNstBPQGnISDTJJ1jl8GdaN1vlTfb82bTEp+hyZwz+Pj8D5WC4bMFBYtPRS34xaBn3QYuGBzMtV9xBYMtCWOM5ePbf03cU4ABAFYmSyTlRnHFAAAAAElFTkSuQmCC) center center no-repeat;
+            background-size:16px 16px;cursor: pointer;
+        }
+        .pop-content-main{
+            .title{
+                font-size: 18px;text-align: center;font-weight: bold;
+            }
+            .massing{
+                font-size: 14px;width: 300px;margin:20px auto 42px;text-align: center;
+            }
+        }
+        .btn-foot-box{
+            width: 226px;margin: auto;text-align: center;overflow: hidden;
+            .cancel-span{
+                min-width: 100px;
+                padding: 8px 0;border-radius: 8px;overflow: hidden;
+                background: #f3f3f3;float: left;cursor: pointer;
+                &.width-long{
+                    padding: 8px 0;width: 100%;
+                }
+            }
+            .confirm-span{
+                min-width: 100px;
+                padding: 8px 0;border-radius: 8px;overflow: hidden;
+                background: #fee101;float: right;cursor: pointer;
+                &.width-long{
+                    padding: 8px 0;width: 100%;
+                }
+            }
+        }
+    }
+}

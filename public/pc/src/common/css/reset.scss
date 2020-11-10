@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html, body {
+  font-family: 'Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif';
+  height: 100%;
+  margin: 0;
+  color: #000;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  color: #000;
+  font-weight: 600;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.link, a {
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;  
+  text-decoration: none;
+}
+
+.link:hover, a:hover {
+  text-decoration: none;
+  color: #e60012;
+}
+.link:focus, a:focus {
+  outline-color: #e60012
+}
+input{
+  outline: none; 
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+.placeholder{
+  color: #666;
+}
+
+img{
+  border:none;
+}

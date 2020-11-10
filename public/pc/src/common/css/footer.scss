@@ -1,0 +1,135 @@
+#footer{
+    width: 100%;background-color: #9e948f; color: #fff;
+    .contact-text{
+        text-align: center;width: 100%;background-color: #7c726b; padding: 15px 0;color: #fff;font-size: 12px;
+    }
+    .footer-main{
+        display: table;margin:0 auto;overflow: hidden;padding:40px 0;
+        .code-box{
+            float: left;overflow: hidden;padding-right:34px;
+            ul{
+                li{
+                    float: left;width: 140px;
+                    .img{
+                        margin:0 auto;display: block;width: 103px;border-radius: 8px;
+                    }
+                    .name{
+                        display: block;text-align: center;font-size: 12px;padding-top: 6px;
+                    }
+                }
+            }
+        }
+        .contact-box{
+            float: right;font-size: 14px;padding-left:50px;border-left:1px solid #b1a9a5;
+            .online-contact{                
+                .name{
+                    font-weight: bold;
+                }
+                .img{
+                    margin-top: -8px;cursor: pointer;transition: all .25s;
+                    &:hover{
+                        transform: translate3d(0,-3px,0);
+                    }
+                }
+            }
+            .tel-contact{      
+                padding-bottom: 6px;          
+                .name{
+                    font-weight: bold;margin-right: 20px;
+                }
+                .more{
+                    font-weight: bold;cursor: pointer;
+                }
+                .tel-list{
+                    padding:10px 0 4px;display: none;
+                    li{
+                        padding:3px 0;
+                    }
+                }
+            }
+            .contact-time{
+                color: #c7c1be;font-size: 12px;
+            }
+        }
+    }
+    .contact-archival{
+        width: 100%;
+        display: table;margin:0 auto;overflow: hidden;padding:12px 0;
+        background-color: #efefef;
+        font-size: 12px;color: #333;
+        .archival-box{
+            width: 1025px;
+            margin: 0 auto;
+            overflow: hidden;
+            .beianhou{
+                padding-left: 35px;float: left;
+                a {
+                    color: #333;
+                    text-decoration: none!important;
+                    &.icp_gov {
+                        margin-right: 52px;line-height: 30px;
+                    }
+                    &.record_link{
+                        margin-left: 50px;
+                        img {
+                            position: relative;
+                            top: 5px;
+                        }
+                    }
+                }
+                .yqlj {
+                    padding-top: 15px;
+                    overflow: hidden;
+                    padding-left: 25px;
+                    .yqlj_li {
+                        border-right: 1px solid #b8b8b8;
+                        float: left;
+                        padding: 0 35px;
+                        list-style-type: none;
+                        margin: 0;
+                        &.paddingleft_0 {
+                            padding-left: 0;
+                        }
+                        &.yqlast_li {
+                            border-right: 0 none;
+                        }
+                    }
+                }
+                .yqlj_bottom{
+                    padding-top: 15px;
+                    a.icp_gov{
+                        padding-left: 25px;
+                    }
+                }
+            }
+            .beianhou1{
+                float: right;
+                padding-right: 35px;
+                padding-top: 12px;
+                line-height: 22px;
+            }
+        }
+    }
+    .footer_index{
+        width: 100%;
+        display: table;margin:0 auto;overflow: hidden;
+        background-color: #fff;
+        font-size: 14px;color: #333;
+        .footerInner_index{
+            // width: 960px;
+            display: table;
+            margin: 0 auto;
+            padding: 13px 0 13px 145px;
+            overflow: hidden;
+            img{    
+                width: 120px;
+                margin-right: 20px;
+                float: left;
+            }
+            span {
+                float: left;
+                font-size: 12px;
+            }
+        }
+    }
+}

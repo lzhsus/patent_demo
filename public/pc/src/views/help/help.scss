@@ -1,0 +1,93 @@
+body{background-color:#f9f9f9;}
+.help-weapper{
+    padding: 24px 0 60px;
+    .help-main{
+        width: 1200px;margin: auto;
+        .help-title{
+            width: 1000px;margin: auto;
+            padding: 20px 0;background: #ffe100;
+            font-size: 18px;color: #000000;text-align: center;
+            span{
+                position: relative;padding-left: 34px;
+                &::before{
+                    position: absolute;top: 0;left: 0;
+                    display: inline-block;content: '';
+                    width: 26px;height: 26px;
+                    background: url('../../common/assets/image/help-icon2.png') center center no-repeat;
+                    background-size: 24px auto;
+                }
+            }
+        }
+        .help-ul{
+            width: 1000px;margin:9px auto;overflow: hidden;
+            font-size: 14px;color: #000000;text-align: left;
+            .help-tabbar{
+                background: #ffff;float: left;
+                width: 204px;
+                .h3-title{
+                    font-weight: normal;
+                    padding: 20px 0 20px 14px;border-bottom: 1px solid #fafafa;
+                }
+                .subside-mod{
+                    .title{
+                        padding: 20px 0 20px 14px;border-bottom: 1px solid #fafafa;
+                        display: block;position: relative;cursor: pointer;
+                        .name{  }
+                        .icon{
+                            position: absolute;top: 26px;right: 20px;
+                            width: 13px;height: 7px;display: block;
+                            background: url('../../common/assets/image/arrows-icon.png') center top no-repeat;
+                            background-size: 100% auto;
+                        }
+                        &.active{
+                            background: #fdfdfd;color: #e60012;border-bottom: 1px solid #e60012;font-weight: bold;
+                            .icon{
+                                background: url('../../common/assets/image/arrows-icon.png') center bottom no-repeat;
+                                background-size: 100% auto;
+                            }
+                        }
+                        &:hover{
+                            background: #f1f1f1;
+                        }
+                    }
+                    .item-ul{
+                        .item-li{
+                            padding: 20px 0 20px 24px;border-bottom: 1px solid #fafafa;
+                            font-size: 12px;cursor: pointer;
+                            &.active{
+                                background: #fdfae5;
+                                &:hover{
+                                    background: #fdfae5;
+                                }
+                            }
+                            &:hover{
+                                background: #fcfbf6;
+                            }
+                        }
+                    }
+                }
+            }
+            .help-info{
+                width: 780px;float: right;
+                .h3-title{
+                    font-weight: normal;padding: 20px 32px 20px 32px;background: #fdfae5;
+                }
+                .help-info-content{
+                    padding: 36px 32px;display: none;
+                    background: #fff;
+                    .title{
+                        font-size: 16px;color: #000000;font-weight: 700;
+                        margin-bottom: 22px;
+                    }
+                    .msg{
+                        font-size: 12px;color: #000000;
+                        margin-bottom: 16px;
+                    }
+                    .msg2{
+                        font-size: 12px;color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

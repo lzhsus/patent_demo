@@ -1,0 +1,16 @@
+{
+    "errcode": 0,
+    "msg": "OK3",
+    "result": {
+        "banner":[{
+            "id":1,
+            "link":"https://7465-text-cf9c1e-1258956257.tcb.qcloud.la/20201109_zscq/index-banner.jpg?sign=b627c708c4ec6893d9d09b115cc196c4&t=1604895273",
+            "name":""
+        },{
+            "id":2,
+            "link":"https://7465-text-cf9c1e-1258956257.tcb.qcloud.la/20201109_zscq/index-banner.jpg?sign=b627c708c4ec6893d9d09b115cc196c4&t=1604895273",
+            "name":""
+        }]
+    },
+    "success": true
+}
