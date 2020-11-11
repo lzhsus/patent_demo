@@ -27,5 +27,93 @@
                 }
             }
         }
+        .introduce-box{
+            width: 1200px;margin: auto;
+            .introduce-title{
+                text-align: center;
+                .title{
+                    font-size: 30px;font-weight: bold;
+                }
+                .desc{
+                    font-size: 16px;margin-top: 24px;
+                }
+                .line{
+                    display: block;width: 592px;margin:24px auto;
+                }
+            }
+            .introduce-main{
+                padding:100px 0;
+                &::after,&::before{
+                    content: " ";display: table;clear: both;
+                }
+                .introduce-main-item{
+                    position: relative;
+                    &:nth-of-type(1){
+                        &::after{
+                            display: block;content: '';
+                            position: absolute;top: -44px;left: 81px;
+                            width: 88px;height: 88px;
+                            background: url("../../common/assets/image/index_icon01.png") no-repeat;
+                            background-size: cover;
+                        }
+                    }  
+                    &:nth-of-type(2){
+                        &::after{
+                            display: block;content: '';
+                            position: absolute;top: -44px;left: 81px;
+                            width: 88px;height: 88px;
+                            background: url("../../common/assets/image/index_icon03.png") no-repeat;
+                            background-size: cover;
+                        }
+                    }  
+                    &:nth-of-type(3){
+                        &::after{
+                            display: block;content: '';
+                            position: absolute;top: -44px;left: 81px;
+                            width: 88px;height: 88px;
+                            background: url("../../common/assets/image/index_icon03.png") no-repeat;
+                            background-size: cover;
+                        }
+                    }  
+                    &:nth-of-type(4){
+                        &::after{
+                            display: block;content: '';
+                            position: absolute;top: -44px;left: 81px;
+                            width: 88px;height: 88px;
+                            background: url("../../common/assets/image/index_icon04.png") no-repeat;
+                            background-size: cover;
+                        }
+                    }   
+                    float: left;
+                    width:250px;height:300px;
+                    border:1px solid #ccc;
+                    margin-right: 46px;
+                    h1{
+                        font-size: 22px;color: #333333;text-align: center;
+                        font-weight: bold;
+                        padding: 50px 0 30px;
+                    }
+                    span{
+                        display: block;width: 200px;margin: auto;
+                        line-height: 40px;font-size: 14px;color: #666666;
+                    }
+                }
+            }
+        }
+        .server-box{
+            width: 1200px;margin: auto;
+            .server-title{
+                text-align: center;
+                .title{
+                    font-size: 30px;color: #ffc001;font-weight: bold;
+                }
+                .desc{
+                    font-size: 16px;margin-top: 20px;
+                }
+            }
+            .server-main{
+                text-align: center;
+            }
+        }
     }
 }

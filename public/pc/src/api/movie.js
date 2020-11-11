@@ -3,7 +3,7 @@ var href = window.location.href;
 
 export default {
 	zscqIndexData: (params={}) =>{
-		return request({url:"https://7465-text-cf9c1e-1258956257.tcb.qcloud.la/20201109_zscq/data_json/index.json",method:"GET",params})
+		return request({url:"http://localhost:8080/static/index.json",method:"GET",params})
 	},	
 }
 
