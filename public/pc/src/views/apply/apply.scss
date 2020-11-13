@@ -1,0 +1,121 @@
+.apply-weapper{
+    .apply-main{    
+        width: 1200px;margin: auto;
+        .apply-info-box{
+            background: #f9f9f9;padding: 40px 0;
+            &::after,&::before{
+                content: " ";display: table;clear: both;
+            }
+            .img{
+                width: 362px;height: 362px;float: left;
+                margin-left: 60px;
+                img{
+                    display: block;width: 100%;
+                }
+            }
+            .info{
+                background: #fff;float: left;margin-left: 30px;
+                height: 362px;width: 700px;
+                padding-left: 20px;
+                .name{
+                    padding: 20px 0;
+                    font-size: 20px;font-weight: bold;color: #333333;
+                }
+                .red{
+                    font-size: 18px;font-weight: bold;color: red;
+                }
+                .type{
+                    margin-top: 20px;
+                    .title{
+                        font-size: 18px;color: #383838;font-weight: bold;margin-bottom: 20px;
+                    }
+                    ul{
+                        &::after,&::before{
+                            content: " ";display: table;clear: both;
+                        }
+                        li{
+                            width: 145px;height: 33px;line-height: 33px;text-align: center;
+                            border:1px solid#383838;
+                            float: left;margin-right: 20px;margin-bottom: 12px;
+                            font-size: 14px;color: #383838;
+                        }
+                    }
+                }
+                .btn-box{
+                    padding-top: 20px;
+                    span{
+                        display: inline-block;
+                        width: 133px;height: 42px;text-align: center;line-height: 42px;
+                        background-color: #c40000;
+                        font-size: 12px;color: #fff;margin-left: 8px;
+                        margin-right: 30px;border-radius: 6px;overflow: hidden;
+                    }
+                }
+            }
+        }
+        // 申请
+        .flow-box{
+            padding: 40px 0;
+           .flow-title{
+                h2{
+                    margin:0 auto 20px;text-align: center;
+                }
+                .desc{
+                    text-align: center;font-size: 12px;color: rgb(153, 153, 153);
+                }
+           } 
+           .flow-main{
+               ul{
+                   padding: 40px 0;
+                    &::after,&::before{
+                        content: " ";display: table;clear: both;
+                    }
+                    li.item{
+                        display: block;width: 300px;float: left;position: relative;
+                        &::after{
+                            display: block;content: '';
+                            position: absolute;top: 60px;right: -12px;
+                            width: 32px;height: 24px;
+                            background: url(../../common/assets/image/apply/apply-icon05.png) center center no-repeat;
+                            background-size: cover;
+                        }
+                        .img{
+                            margin: auto ;width: 125px;height:125px;border-radius: 50%;border: 1px solid #f69388;
+                        }
+                        .name{
+                            font-size: 18px;font-weight: bold;text-align: center;color: #000;
+                            margin: 30px auto 20px;
+                        }
+                        .desc{
+                            font-size: 12px;text-align: center;color: #666666;
+                        }
+                        &:nth-of-type(1){
+                            .img{
+                                background: #fff url(../../common/assets/image/apply/apply-icon01.png) center center no-repeat;
+                                background-size: 30px auto;
+                            }
+                        }
+                        &:nth-of-type(2){
+                            .img{
+                                background: #fff url(../../common/assets/image/apply/apply-icon02.png) center center no-repeat;
+                                background-size: 30px auto;
+                            }
+                        }
+                        &:nth-of-type(3){
+                            .img{
+                                background: #fff url(../../common/assets/image/apply/apply-icon03.png) center center no-repeat;
+                                background-size: 30px auto;
+                            }
+                        }
+                        &:nth-of-type(4){
+                            .img{
+                                background: #fff url(../../common/assets/image/apply/apply-icon04.png) center center no-repeat;
+                                background-size: 30px auto;
+                            }
+                        }
+                    }
+               }
+           }
+        }
+    }
+}
