@@ -1,0 +1,20 @@
+.highproject-weapper {
+  .highproject-main {
+    width: 1200px;
+    margin: auto;
+    .title {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #ccc;
+      span {
+        display: block;
+        width: 170px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: #02b2b5;
+        border-bottom: 1px solid #02b2b5;
+      }
+    }
+  }
+}

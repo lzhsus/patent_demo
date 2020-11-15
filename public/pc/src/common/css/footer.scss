@@ -1,13 +1,38 @@
-#footer{
-    width: 100%;background-color: #9e948f; color: #fff;
-    .contact-archival{
-        width: 100%;text-align: center;
-        display: table;margin:0 auto;overflow: hidden;padding:12px 0;
-        background-color: #efefef;
-        font-size: 16px;color: #333;
-        .baian{
-            font-size: 12px;
-            color: #7b818d; 
-        }
+#footer {
+  width: 100%;
+  background-color: #9e948f;
+  color: #fff;
+  .contact-archival {
+    width: 100%;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 12px 0;
+    background-color: #efefef;
+    font-size: 16px;
+    color: #333;
+    .baian {
+      font-size: 12px;
+      color: #7b818d;
     }
+  }
+}
+.fk_siteBackToTop:hover {
+  background-image: url(//0ss.faisys.com/image/backToTop/secondStyle/05_hover.png?v=201505261406);
+}
+.fk_siteBackToTop {
+  position: fixed;
+}
+.fk_siteBackToTop {
+  width: 50px;
+}
+.fk_siteBackToTop {
+  height: 50px;
+}
+.fk_siteBackToTop {
+  margin: 1px;
+}
+.fk_siteBackToTop {
+  background-image: url(//0ss.faisys.com/image/backToTop/secondStyle/05.png?v=201505251717);
 }
