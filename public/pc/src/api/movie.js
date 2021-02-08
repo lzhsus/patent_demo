@@ -3,7 +3,7 @@ var href = window.location.href;
 
 export default {
 	zscqIndexData: (params={}) =>{
-		return request({url:"http://localhost:8080/static/index.json",method:"GET",params})
+		return request({url:"https://env-vvwpklgy-1258231492.tcloudbaseapp.com/static/index.json",method:"GET",params})
 	},	
 }
 
